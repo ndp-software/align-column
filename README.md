@@ -3,22 +3,24 @@ align-column
 
 jQuery table formatting plugin for decimal alignment and other prettifying of table columns.
 
+### Features
+
 Change sloppily right aligned numeric tables from:
 
-https://raw.github.com/ndp/align-column/master/examples/decimals-right.png
+<img src="https://raw.github.com/ndp/align-column/master/examples/decimals-right.png">
 
 to:
 
-https://raw.github.com/ndp/align-column/master/examples/decimals-after-bordered.png
+<img src="https://raw.github.com/ndp/align-column/master/examples/decimals-after-bordered.png">
 
 
 Center based on characters besides a decimal separator:
 
-https://raw.github.com/ndp/align-column/master/examples/other-characters-before.png
+<img src="https://raw.github.com/ndp/align-column/master/examples/other-characters-before.png">
 
 into:
 
-https://raw.github.com/ndp/align-column/master/examples/other-characters-after-bordered.png
+<img src="https://raw.github.com/ndp/align-column/master/examples/other-characters-after-bordered.png">
 
 
 Scientific tables:
