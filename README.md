@@ -8,7 +8,9 @@ jQuery table formatting plugin for decimal alignment and other prettifying of ta
 Transform sloppily right-aligned numeric tables:
 
 <img src="https://raw.github.com/ndp/align-column/master/examples/decimals-right.png">
+
 to a nicer
+
 <img src="https://raw.github.com/ndp/align-column/master/examples/decimals-after.png">
 
 Center based on characters besides a decimal separator:
