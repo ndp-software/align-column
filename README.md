@@ -7,7 +7,7 @@ jQuery table formatting plugin for decimal alignment and other prettifying of ta
 
 Transform sloppily right aligned numeric tables:
 
-<div style="text-align: middle">
+<div style="vertical-align: middle">
 <img src="https://raw.github.com/ndp/align-column/master/examples/decimals-right.png"> ==> <img src="https://raw.github.com/ndp/align-column/master/examples/decimals-after.png">
 </div>
 
