@@ -5,10 +5,11 @@ jQuery table formatting plugin for decimal alignment and other prettifying of ta
 
 ### Features
 
-Change sloppily right aligned numeric tables from:
+Transform sloppily right aligned numeric tables:
 
-<img src="https://raw.github.com/ndp/align-column/master/examples/decimals-right.png"> ==> <img src="https://raw.github.com/ndp/align-column/master/examples/decimals-after-bordered.png">
-
+<div style="text-align: middle">
+<img src="https://raw.github.com/ndp/align-column/master/examples/decimals-right.png"> ==> <img src="https://raw.github.com/ndp/align-column/master/examples/decimals-after.png">
+</div>
 
 Center based on characters besides a decimal separator:
 
