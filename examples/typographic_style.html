@@ -1,112 +1,106 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title></title>
-    <style>
-        table {
-            margin: 100px 20px;
-            font-size: large;
-            font-family: times new roman;
-        }
+  <title></title>
+  <style>
+    table {
+      margin: 100px 20px;
+      font-size: large;
+      font-family: times new roman;
+      background-color: #eee;
+      color: #555;
+    }
 
-        table thead td {
-            padding: 2px 20px;
-            background-color: lightblue;
-            color: white;
-        }
+    table th {
+      padding: 5px 20px;
+      text-align: right;
+    }
 
-        table tbody td {
-            padding: 2px 20px;
-            text-align: right;
-        }
+    table tbody td {
+      padding: 3px 20px;
+      text-align: right;
+    }
 
-        table.bordered td, table.bordered th {
-            border: 1px solid black;
-        }
-
-        table.elements {
-            font-size:  small;
-        }
-        table.elements td {
-            text-align:  left;
-        }
-    </style>
-    <script type="text/javascript" src="../lib/jquery-1.8.1.min.js"></script>
+    table.bordered td, table.bordered th {
+      border: 1px solid #bbb;
+    }
+  </style>
+  <script type="text/javascript" src="../lib/jquery-1.8.1.min.js"></script>
   <script type="text/javascript" src="../jquery.align-column.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            $('input:button').click(function () {
-                $('table.decimal-aligned').decimator([0, 1, 2, 3]);
+  <script type="text/javascript">
+    $(function () {
+      $('input:button').click(function () {
+        $('table.decimal-aligned').alignColumn([0, 1, 2, 3]);
 
-                $('table.lots').decimator(1, { center: ':', debug: true});
-                $('table.lots').decimator(2, { center: 'x', debug: true});
-                $('table.lots').decimator(3, { center: '.', debug: true});
-                $('table.lots').decimator(4, { center: '=', debug: true});
-            });
+        $('table.lots').alignColumn(1, { center: ':', debug: true});
+        $('table.lots').alignColumn(2, { center: 'x', debug: true});
+        $('table.lots').alignColumn(3, { center: '.', debug: true});
+        $('table.lots').alignColumn(4, { center: '=', debug: true});
+      });
 
-            $(':checkbox[value="show-borders"]').change(function () {
-                var show = $(this).is(':checked');
-                console.log('show', show);
-                $('table').toggleClass('bordered', show);
+      $(':checkbox[value="show-borders"]').change(function () {
+        var show = $(this).is(':checked');
+        console.log('show', show);
+        $('table').toggleClass('bordered', show);
 
-            });
-        });
-    </script>
+      });
+    });
+  </script>
 </head>
 <body>
-<input type="checkbox" value="show-borders">Show Borders</input>
-<br>
-<input type="button" value="Magic">
+<p>Build using the <a href="https://github.com/ndp/align-column">Align Column jQuery Plugin</a></p>
 
+<p><input type="checkbox" value="show-borders">Show Borders</input>
+</p>
+
+<p><input type="button" value="Align Now">
+</p>
 <table class="decimal-aligned">
-    <tbody>
-    <tr>
-        <td>8</td>
-        <td>98</td>
-        <td>998</td>
-        <td>9.75</td>
-    </tr>
-    <tr>
-        <td>9</td>
-        <td>-99</td>
-        <td>999*</td>
-        <td>10</td>
-    </tr>
-    <tr>
-        <td>10</td>
-        <td>100</td>
-        <td>1000</td>
-        <td>10.25</td>
-    </tr>
-    <tr>
-        <td>11</td>
-        <td>101</td>
-        <td>1001</td>
-        <td>10.5</td>
-    </tr>
-    </tbody>
+  <tbody>
+  <tr>
+    <td>8</td>
+    <td>98</td>
+    <td>998</td>
+    <td>9.75</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>-99</td>
+    <td>999*</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>100</td>
+    <td>1000</td>
+    <td>10.25</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>101</td>
+    <td>1001</td>
+    <td>10.5</td>
+  </tr>
+  </tbody>
 </table>
 <table class="lots">
-    <tbody>
-    <tr>
-        <th>Aster</th>
-        <td>2:3</td>
-        <td>24 x 36</td>
-        <td>0.6667</td>
-        <td>a = 2b</td>
-    </tr>
-    <tr>
-        <th>Valerian</th>
-        <td>271:20</td>
-        <td>813 x 604</td>
-        <td>13.550</td>
-        <td>6a = c</td>
-    </tr>
-    </tbody>
+  <tbody>
+  <tr>
+    <th>Aster</th>
+    <td>2:3</td>
+    <td>24 x 36</td>
+    <td>0.6667</td>
+    <td>a = 2b</td>
+  </tr>
+  <tr>
+    <th>Valerian</th>
+    <td>271:20</td>
+    <td>813 x 604</td>
+    <td>13.550</td>
+    <td>6a = c</td>
+  </tr>
+  </tbody>
 </table>
 <caption>Table 4.4.4, p. 72, <i>The Elements of Typographic Style</i></caption>
-
 
 </body>
 </html>

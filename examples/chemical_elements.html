@@ -1,0 +1,2105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>List of Chemical Elements</title>
+  <style>
+    p {
+      max-width: 70ex;
+      line-height: 1.4em;
+    }
+    table.elements {
+      margin: 20px;
+      border: 1px solid #ccc;
+      font-size: small;
+    }
+    table.elements thead tr {
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+    }
+
+    table.elements thead tr th {
+      vertical-align: baseline;
+      padding: 10px;
+    }
+
+    table.elements tr:nth-child(6n + 4),
+    table.elements tr:nth-child(6n + 5),
+    table.elements tr:nth-child(6n + 6) {
+      background-color: #f9f9f9;
+    }
+
+    table.elements td {
+      vertical-align: baseline;
+      text-align: left;
+      padding: 5px 15px;
+    }
+
+    table.elements td a {
+      text-decoration: none;
+    }
+
+    table.elements tr td:nth-child(1) {
+      text-align: right;
+    }
+
+    table.elements tr td:nth-child(2) {
+      text-align: center;
+      font-size: large;
+      padding: 4px 2px;
+      font-weight: bold;
+    }
+
+    table.elements tr td:nth-child(4) {
+      width: 30ex !important;
+      vertical-align: middle;
+    }
+
+  </style>
+  <script type="text/javascript" src="../lib/jquery-1.8.1.min.js"></script>
+  <script type="text/javascript" src="../jquery.align-column.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $('table.elements').alignColumn([4, 5, 8, 9, 10, 11, 12]);
+      $('table.elements').alignColumn([6, 7], { center: '.'});
+    });
+  </script>
+  <base href="http://en.wikipedia.org">
+</head>
+<body>
+<h1>Example Scientific Table</h1>
+<p>Build using the <a href="https://github.com/ndp/align-column">Align Column jQuery Plugin</a></p>
+<p>This table lists all the known chemical elements (according to Wikipedia).
+  The markup is unmodified from the Wikipedia source,
+  and the styling is minimal. It is
+intended to show the formatting of the numbers with minimal
+customization. With customization many of the existing problems could be solved, but this is certainly an improvement.</p>
+<p>Column 1 is right aligned, column 2 is centered, column 4 has its width restricted. The following Javascript is applied:</p>
+<pre><code>
+  $('table.elements').alignColumn([4, 5, 8, 9, 10, 11, 12]);
+  $('table.elements').alignColumn([6, 7], { center: '.'});
+</code></pre>
+<br>
+<br>
+<caption>From Wikipedia <a href="http://en.wikipedia.org/wiki/List_of_elements">List of Elements</a></caption>
+<table class="elements">
+<thead>
+<tr>
+  <th><a href="/wiki/Atomic_number" title="Atomic number">Z</a><br>
+    <br></th>
+  <th><a href="/wiki/Atomic_symbol" title="Atomic symbol"
+         class="mw-redirect">Sym</a><br>
+    <br></th>
+  <th><a href="/wiki/Chemical_element"
+         title="Chemical element">Element</a><br>
+    <br></th>
+  <th>Origin of name<br>
+    <sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup><br></th>
+  <th><a href="/wiki/Group_(periodic_table)" title="Group (periodic table)">Group</a><br>
+    <br></th>
+  <th><a href="/wiki/Period_(periodic_table)"
+         title="Period (periodic table)">Period</a><br>
+    <br></th>
+  <th><a href="/wiki/Atomic_weight" title="Atomic weight"
+         class="mw-redirect">Weight</a><br>
+    <a href="/wiki/Atomic_mass_unit" title="Atomic mass unit">u</a> <a href="/wiki/Uncertainty#Measurements"
+                                                                       title="Uncertainty">()</a><br></th>
+  <th><a href="/wiki/Density" title="Density">Density</a><br>
+    <a href="/wiki/Gram" title="Gram">g</a> / <a href="/wiki/Cubic_centimetre"
+                                                 title="Cubic centimetre">cm<sup>3</sup></a><br></th>
+  <th><a href="/wiki/Melting_point" title="Melting point">Melt</a><br>
+    <a href="/wiki/Kelvin" title="Kelvin">K</a><br></th>
+  <th><a href="/wiki/Boiling_point" title="Boiling point">Boil</a><br>
+    <a href="/wiki/Kelvin" title="Kelvin">K</a><br></th>
+  <th><a href="/wiki/Specific_heat_capacity" title="Specific heat capacity"
+         class="mw-redirect">Heat</a><br>
+    <a href="/wiki/Joules" title="Joules" class="mw-redirect">J</a> / <a href="/wiki/Gram" title="Gram">g</a> <a
+            href="/wiki/Kelvin" title="Kelvin">K</a><br></th>
+  <th><a href="/wiki/Electronegativity"
+         title="Electronegativity">Neg</a><sup
+          class="reference plainlinks nourlexpansion" id="ref_10"><a href="#endnote_10">10</a></sup></th>
+  <th><a href="/wiki/Abundance_of_elements_in_Earth%27s_crust"
+         title="Abundance of elements in Earth's crust">Abundance</a><br>
+    <a href="/wiki/Milligram" title="Milligram" class="mw-redirect">mg</a> / <a href="/wiki/Kilogram"
+                                                                                title="Kilogram">kg</a><br></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1</td>
+  <td style="background-color:#a0ffa0">H</td>
+  <td><a href="/wiki/Hydrogen" title="Hydrogen">Hydrogen</a></td>
+  <td>the <a href="/wiki/Greek_language" title="Greek language">Greek</a> 'hydro' and 'genes' meaning
+    <i>water-forming</i></td>
+  <td>1</td>
+  <td>1</td>
+  <td><span class="sorttext">1.008(1)</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_3"><a href="#endnote_3">3</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_4"><a href="#endnote_4">4</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_9"><a href="#endnote_9">9</a></sup></td>
+  <td>0.00008988</td>
+  <td>14.175</td>
+  <td>20.28</td>
+  <td>14.304</td>
+  <td>2.20</td>
+  <td>1400</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td style="background-color:#c0ffff">He</td>
+  <td><a href="/wiki/Helium" title="Helium">Helium</a></td>
+  <td>the Greek, 'helios' meaning <i>sun</i></td>
+  <td>18</td>
+  <td>1</td>
+  <td><span class="sorttext">4.002602(2)</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_4"><a href="#endnote_4">4</a></sup></td>
+  <td>0.0001785</td>
+  <td>0.95<sup class="reference plainlinks nourlexpansion" id="ref_6"><a href="#endnote_6">6</a></sup></td>
+  <td>4.22</td>
+  <td>5.193</td>
+  <td>&ndash;</td>
+  <td>0.008</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td style="background-color:#ff6666">Li</td>
+  <td><a href="/wiki/Lithium" title="Lithium">Lithium</a></td>
+  <td>the Greek 'lithos' meaning <i>stone</i></td>
+  <td>1</td>
+  <td>2</td>
+  <td><span class="sorttext">6.94(1)</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_3"><a href="#endnote_3">3</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_4"><a href="#endnote_4">4</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_5"><a href="#endnote_5">5</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_9"><a href="#endnote_9">9</a></sup></td>
+  <td>0.534</td>
+  <td>453.85</td>
+  <td>1615</td>
+  <td>3.582</td>
+  <td>0.98</td>
+  <td>20</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td style="background-color:#ffdead">Be</td>
+  <td><a href="/wiki/Beryllium" title="Beryllium">Beryllium</a></td>
+  <td>the Greek name for beryl, 'beryllo'</td>
+  <td>2</td>
+  <td>2</td>
+  <td><span class="sorttext">9.012182(3)</span></td>
+  <td>1.85</td>
+  <td>1560.15</td>
+  <td>2742</td>
+  <td>1.825</td>
+  <td>1.57</td>
+  <td>2.8</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td style="background-color:#cccc99">B</td>
+  <td><a href="/wiki/Boron" title="Boron">Boron</a></td>
+  <td>the <a href="/wiki/Arabic" title="Arabic" class="mw-redirect">Arabic</a> 'buraq', which was the name for borax
+  </td>
+  <td>13</td>
+  <td>2</td>
+  <td><span class="sorttext">10.81(1)<sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_3"><a href="#endnote_3">3</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_4"><a href="#endnote_4">4</a></sup></span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_9"><a href="#endnote_9">9</a></sup></td>
+  <td>2.34</td>
+  <td>2573.15</td>
+  <td>4200</td>
+  <td>1.026</td>
+  <td>2.04</td>
+  <td>10</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td style="background-color:#a0ffa0">C</td>
+  <td><a href="/wiki/Carbon" title="Carbon">Carbon</a></td>
+  <td>the <a href="/wiki/Latin" title="Latin">Latin</a> ‘carbo’, meaning <i>charcoal</i></td>
+  <td>14</td>
+  <td>2</td>
+  <td><span class="sorttext">12.011(1)<sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_4"><a href="#endnote_4">4</a></sup></span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_9"><a href="#endnote_9">9</a></sup></td>
+  <td>2.267</td>
+  <td>3915 (sublimates)</td>
+  <td>3915 (sublimates)</td>
+  <td>0.709</td>
+  <td>2.55</td>
+  <td>200</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td style="background-color:#a0ffa0">N</td>
+  <td><a href="/wiki/Nitrogen" title="Nitrogen">Nitrogen</a></td>
+  <td>the Greek 'nitron' and 'genes' meaning <i>nitre-forming</i></td>
+  <td>15</td>
+  <td>2</td>
+  <td><span class="sorttext">14.007(1)<sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_4"><a href="#endnote_4">4</a></sup></span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_9"><a href="#endnote_9">9</a></sup></td>
+  <td>0.0012506</td>
+  <td>63.29</td>
+  <td>77.36</td>
+  <td>1.04</td>
+  <td>3.04</td>
+  <td>19</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td style="background-color:#a0ffa0">O</td>
+  <td><a href="/wiki/Oxygen" title="Oxygen">Oxygen</a></td>
+  <td>the Greek 'oxy' and 'genes' meaning <i>acid-forming</i></td>
+  <td>16</td>
+  <td>2</td>
+  <td><span class="sorttext">15.999(1)<sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_4"><a href="#endnote_4">4</a></sup></span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_9"><a href="#endnote_9">9</a></sup></td>
+  <td>0.001429</td>
+  <td>50.5</td>
+  <td>90.20</td>
+  <td>0.918</td>
+  <td>3.44</td>
+  <td>461000</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td style="background-color:#ffff99">F</td>
+  <td><a href="/wiki/Fluorine" title="Fluorine">Fluorine</a></td>
+  <td>the Latin 'fluere', meaning <i>to flow</i></td>
+  <td>17</td>
+  <td>2</td>
+  <td><span class="sorttext">18.9984032(5)</span></td>
+  <td>0.001696</td>
+  <td>53.63</td>
+  <td>85.03</td>
+  <td>0.824</td>
+  <td>3.98</td>
+  <td>585</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td style="background-color:#c0ffff">Ne</td>
+  <td><a href="/wiki/Neon" title="Neon">Neon</a></td>
+  <td>the Greek 'neos', meaning <i>new</i></td>
+  <td>18</td>
+  <td>2</td>
+  <td><span class="sorttext">20.1797(6)<sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_3"><a href="#endnote_3">3</a></sup></span></td>
+  <td>0.0008999</td>
+  <td>24.703</td>
+  <td>27.07</td>
+  <td>1.03</td>
+  <td>&ndash;</td>
+  <td>0.005</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td style="background-color:#ff6666">Na</td>
+  <td><a href="/wiki/Sodium" title="Sodium">Sodium</a></td>
+  <td>the <a href="/wiki/English_language" title="English language">English</a> word <i>soda</i> (<i>natrium</i> in
+    Latin)<sup id="cite_ref-innvista_2-0" class="reference"><a
+            href="#cite_note-innvista-2"><span>[</span>2<span>]</span></a></sup></td>
+  <td>1</td>
+  <td>3</td>
+  <td><span class="sorttext">22.98976928(2)</span></td>
+  <td>0.971</td>
+  <td>371.15</td>
+  <td>1156</td>
+  <td>1.228</td>
+  <td>0.93</td>
+  <td>23600</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td style="background-color:#ffdead">Mg</td>
+  <td><a href="/wiki/Magnesium" title="Magnesium">Magnesium</a></td>
+  <td><a href="/wiki/Magnesia_(regional_unit)" title="Magnesia (regional unit)">Magnesia</a>, a district of Eastern <a
+          href="/wiki/Thessaly" title="Thessaly">Thessaly</a> in <a href="/wiki/Greece" title="Greece">Greece</a></td>
+  <td>2</td>
+  <td>3</td>
+  <td><span class="sorttext">24.3050(6)</span></td>
+  <td>1.738</td>
+  <td>923.15</td>
+  <td>1363</td>
+  <td>1.023</td>
+  <td>1.31</td>
+  <td>23300</td>
+</tr>
+<tr>
+  <td>13</td>
+  <td style="background-color:#cccccc">Al</td>
+  <td><a href="/wiki/Aluminium" title="Aluminium">Aluminium</a></td>
+  <td>the Latin name for alum, 'alumen' meaning <i>bitter salt</i></td>
+  <td>13</td>
+  <td>3</td>
+  <td><span class="sorttext">26.9815386(8)</span></td>
+  <td>2.698</td>
+  <td>933.4</td>
+  <td>2792</td>
+  <td>0.897</td>
+  <td>1.61</td>
+  <td>82300</td>
+</tr>
+<tr>
+  <td>14</td>
+  <td style="background-color:#cccc99">Si</td>
+  <td><a href="/wiki/Silicon" title="Silicon">Silicon</a></td>
+  <td>the Latin 'silex' or 'silicis', meaning <i>flint</i></td>
+  <td>14</td>
+  <td>3</td>
+  <td><span class="sorttext">28.085(1)</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_4"><a href="#endnote_4">4</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_9"><a href="#endnote_9">9</a></sup></td>
+  <td>2.3296</td>
+  <td>1683.15</td>
+  <td>3538</td>
+  <td>0.705</td>
+  <td>1.9</td>
+  <td>282000</td>
+</tr>
+<tr>
+  <td>15</td>
+  <td style="background-color:#a0ffa0">P</td>
+  <td><a href="/wiki/Phosphorus" title="Phosphorus">Phosphorus</a></td>
+  <td>the Greek 'phosphoros', meaning <i>bringer of light</i></td>
+  <td>15</td>
+  <td>3</td>
+  <td><span class="sorttext">30.973762(2)</span></td>
+  <td>1.82</td>
+  <td>317.25</td>
+  <td>553</td>
+  <td>0.769</td>
+  <td>2.19</td>
+  <td>1050</td>
+</tr>
+<tr>
+  <td>16</td>
+  <td style="background-color:#a0ffa0">S</td>
+  <td><a href="/wiki/Sulfur" title="Sulfur">Sulfur</a></td>
+  <td>Either from the <a href="/wiki/Sanskrit" title="Sanskrit">Sanskrit</a> 'sulvere', or the Latin 'sulfurium', both
+    names for sulfur<sup id="cite_ref-innvista_2-1" class="reference"><a
+            href="#cite_note-innvista-2"><span>[</span>2<span>]</span></a></sup>
+  </td>
+  <td>16</td>
+  <td>3</td>
+  <td><span class="sorttext">32.06(1)</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_4"><a href="#endnote_4">4</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_9"><a href="#endnote_9">9</a></sup></td>
+  <td>2.067</td>
+  <td>388.51</td>
+  <td>717.8</td>
+  <td>0.71</td>
+  <td>2.58</td>
+  <td>350</td>
+</tr>
+<tr>
+  <td>17</td>
+  <td style="background-color:#ffff99">Cl</td>
+  <td><a href="/wiki/Chlorine" title="Chlorine">Chlorine</a></td>
+  <td>the Greek 'chloros', meaning <i>greenish yellow</i></td>
+  <td>17</td>
+  <td>3</td>
+  <td><span class="sorttext">35.45(1)</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_3"><a href="#endnote_3">3</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_4"><a href="#endnote_4">4</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_9"><a href="#endnote_9">9</a></sup></td>
+  <td>0.003214</td>
+  <td>172.31</td>
+  <td>239.11</td>
+  <td>0.479</td>
+  <td>3.16</td>
+  <td>145</td>
+</tr>
+<tr>
+  <td>18</td>
+  <td style="background-color:#c0ffff">Ar</td>
+  <td><a href="/wiki/Argon" title="Argon">Argon</a></td>
+  <td>the Greek, 'argos', meaning <i>idle</i></td>
+  <td>18</td>
+  <td>3</td>
+  <td><span class="sorttext">39.948(1)</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_4"><a href="#endnote_4">4</a></sup></td>
+  <td>0.0017837</td>
+  <td>83.96</td>
+  <td>87.30</td>
+  <td>0.52</td>
+  <td>&ndash;</td>
+  <td>3.5</td>
+</tr>
+<tr>
+  <td>19</td>
+  <td style="background-color:#ff6666">K</td>
+  <td><a href="/wiki/Potassium" title="Potassium">Potassium</a></td>
+  <td>the English word <i>potash</i> (<i>kalium</i> in Latin)<sup id="cite_ref-innvista_2-2" class="reference"><a
+          href="#cite_note-innvista-2"><span>[</span>2<span>]</span></a></sup></td>
+  <td>1</td>
+  <td>4</td>
+  <td><span class="sorttext">39.0983(1)</span></td>
+  <td>0.862</td>
+  <td>336.5</td>
+  <td>1032</td>
+  <td>0.757</td>
+  <td>0.82</td>
+  <td>20900</td>
+</tr>
+<tr>
+  <td>20</td>
+  <td style="background-color:#ffdead">Ca</td>
+  <td><a href="/wiki/Calcium" title="Calcium">Calcium</a></td>
+  <td>the Latin 'calx' meaning <i>lime</i></td>
+  <td>2</td>
+  <td>4</td>
+  <td><span class="sorttext">40.078(4)</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>1.54</td>
+  <td>1112.15</td>
+  <td>1757</td>
+  <td>0.647</td>
+  <td>1</td>
+  <td>41500</td>
+</tr>
+<tr>
+  <td>21</td>
+  <td style="background-color:#ffc0c0">Sc</td>
+  <td><a href="/wiki/Scandium" title="Scandium">Scandium</a></td>
+  <td><a href="/wiki/Scandinavia" title="Scandinavia">Scandinavia</a> (with the Latin name <i>Scandia</i>)</td>
+  <td>3</td>
+  <td>4</td>
+  <td><span class="sorttext">44.955912(6)</span></td>
+  <td>2.989</td>
+  <td>1812.15</td>
+  <td>3109</td>
+  <td>0.568</td>
+  <td>1.36</td>
+  <td>22</td>
+</tr>
+<tr>
+  <td>22</td>
+  <td style="background-color:#ffc0c0">Ti</td>
+  <td><a href="/wiki/Titanium" title="Titanium">Titanium</a></td>
+  <td><a href="/wiki/Titan_(mythology)" title="Titan (mythology)">Titans</a>, the sons of the Earth goddess of Greek
+    mythology
+  </td>
+  <td>4</td>
+  <td>4</td>
+  <td><span class="sorttext">47.867(1)</span></td>
+  <td>4.54</td>
+  <td>1933.15</td>
+  <td>3560</td>
+  <td>0.523</td>
+  <td>1.54</td>
+  <td>5650</td>
+</tr>
+<tr>
+  <td>23</td>
+  <td style="background-color:#ffc0c0">V</td>
+  <td><a href="/wiki/Vanadium" title="Vanadium">Vanadium</a></td>
+  <td><a href="/wiki/List_of_names_of_Freyja" title="List of names of Freyja">Vanadis</a>, the old <a
+          href="/wiki/Norse_mythology" title="Norse mythology">Norse</a> name for the Scandinavian goddess <a
+          href="/wiki/Freyja" title="Freyja">Freyja</a></td>
+  <td>5</td>
+  <td>4</td>
+  <td><span class="sorttext">50.9415(1)</span></td>
+  <td>6.11</td>
+  <td>2175.15</td>
+  <td>3680</td>
+  <td>0.489</td>
+  <td>1.63</td>
+  <td>120</td>
+</tr>
+<tr>
+  <td>24</td>
+  <td style="background-color:#ffc0c0">Cr</td>
+  <td><a href="/wiki/Chromium" title="Chromium">Chromium</a></td>
+  <td>the Greek 'chroma', meaning <i>colour</i></td>
+  <td>6</td>
+  <td>4</td>
+  <td><span class="sorttext">51.9961(6)</span></td>
+  <td>7.15</td>
+  <td>2130.15</td>
+  <td>2944</td>
+  <td>0.449</td>
+  <td>1.66</td>
+  <td>102</td>
+</tr>
+<tr>
+  <td>25</td>
+  <td style="background-color:#ffc0c0">Mn</td>
+  <td><a href="/wiki/Manganese" title="Manganese">Manganese</a></td>
+  <td>Either the Latin 'magnes', meaning <i>magnet</i> or from the <i>black magnesium oxide</i>, 'magnesia nigra'</td>
+  <td>7</td>
+  <td>4</td>
+  <td><span class="sorttext">54.938045(5)</span></td>
+  <td>7.44</td>
+  <td>1519.15</td>
+  <td>2334</td>
+  <td>0.479</td>
+  <td>1.55</td>
+  <td>950</td>
+</tr>
+<tr>
+  <td>26</td>
+  <td style="background-color:#ffc0c0">Fe</td>
+  <td><a href="/wiki/Iron" title="Iron">Iron</a></td>
+  <td>the <a href="/wiki/Anglo-Saxon" title="Anglo-Saxon" class="mw-redirect">Anglo-Saxon</a> name <i>iren</i> (<i>ferrum</i>
+    in Latin)
+  </td>
+  <td>8</td>
+  <td>4</td>
+  <td><span class="sorttext">55.845(2)</span></td>
+  <td>7.874</td>
+  <td>1808.15</td>
+  <td>3134</td>
+  <td>0.449</td>
+  <td>1.83</td>
+  <td>56300</td>
+</tr>
+<tr>
+  <td>27</td>
+  <td style="background-color:#ffc0c0">Co</td>
+  <td><a href="/wiki/Cobalt" title="Cobalt">Cobalt</a></td>
+  <td>the <a href="/wiki/German_language" title="German language">German</a> word 'kobald', meaning <i>goblin</i></td>
+  <td>9</td>
+  <td>4</td>
+  <td><span class="sorttext">58.933195(5)</span></td>
+  <td>8.86</td>
+  <td>1768.15</td>
+  <td>3200</td>
+  <td>0.421</td>
+  <td>1.88</td>
+  <td>25</td>
+</tr>
+<tr>
+  <td>28</td>
+  <td style="background-color:#ffc0c0">Ni</td>
+  <td><a href="/wiki/Nickel" title="Nickel">Nickel</a></td>
+  <td>the shortened of the German 'kupfernickel' meaning either <i>devil's copper</i> or <i>St. Nicholas's copper</i>
+  </td>
+  <td>10</td>
+  <td>4</td>
+  <td><span class="sorttext">58.6934(4)</span></td>
+  <td>8.912</td>
+  <td>1726.15</td>
+  <td>3186</td>
+  <td>0.444</td>
+  <td>1.91</td>
+  <td>84</td>
+</tr>
+<tr>
+  <td>29</td>
+  <td style="background-color:#ffc0c0">Cu</td>
+  <td><a href="/wiki/Copper" title="Copper">Copper</a></td>
+  <td>the Old English name <i>coper</i> in turn derived from the Latin 'Cyprium aes', meaning <i>a metal from <a
+          href="/wiki/Cyprus" title="Cyprus">Cyprus</a></i></td>
+  <td>11</td>
+  <td>4</td>
+  <td><span class="sorttext">63.546(3)</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_4"><a href="#endnote_4">4</a></sup></td>
+  <td>8.96</td>
+  <td>1357.75</td>
+  <td>2835</td>
+  <td>0.385</td>
+  <td>1.9</td>
+  <td>60</td>
+</tr>
+<tr>
+  <td>30</td>
+  <td style="background-color:#ffc0c0">Zn</td>
+  <td><a href="/wiki/Zinc" title="Zinc">Zinc</a></td>
+  <td>the German, 'zinc', which may in turn be derived from the <a href="/wiki/Persian_language"
+                                                                   title="Persian language">Persian</a> word 'sing',
+    meaning <i>stone</i></td>
+  <td>12</td>
+  <td>4</td>
+  <td><span class="sorttext">65.38(2)</span></td>
+  <td>7.134</td>
+  <td>692.88</td>
+  <td>1180</td>
+  <td>0.388</td>
+  <td>1.65</td>
+  <td>70</td>
+</tr>
+<tr>
+  <td>31</td>
+  <td style="background-color:#cccccc">Ga</td>
+  <td><a href="/wiki/Gallium" title="Gallium">Gallium</a></td>
+  <td><a href="/wiki/France" title="France">France</a> (with the Latin name <i>Gallia</i>)</td>
+  <td>13</td>
+  <td>4</td>
+  <td><span class="sorttext">69.723(1)</span></td>
+  <td>5.907</td>
+  <td>302.91</td>
+  <td>2477</td>
+  <td>0.371</td>
+  <td>1.81</td>
+  <td>19</td>
+</tr>
+<tr>
+  <td>32</td>
+  <td style="background-color:#cccc99">Ge</td>
+  <td><a href="/wiki/Germanium" title="Germanium">Germanium</a></td>
+  <td><a href="/wiki/Germany" title="Germany">Germany</a> (with the Latin name <i>Germania</i>)</td>
+  <td>14</td>
+  <td>4</td>
+  <td><span class="sorttext">72.63(1)</span></td>
+  <td>5.323</td>
+  <td>1211.45</td>
+  <td>3106</td>
+  <td>0.32</td>
+  <td>2.01</td>
+  <td>1.5</td>
+</tr>
+<tr>
+  <td>33</td>
+  <td style="background-color:#cccc99">As</td>
+  <td><a href="/wiki/Arsenic" title="Arsenic">Arsenic</a></td>
+  <td>the Greek name 'arsenikon' for <i>the yellow pigment <a href="/wiki/Orpiment" title="Orpiment">orpiment</a></i>
+  </td>
+  <td>15</td>
+  <td>4</td>
+  <td><span class="sorttext">74.92160(2)</span></td>
+  <td>5.776</td>
+  <td>1090.15<sup class="reference plainlinks nourlexpansion" id="ref_7"><a href="#endnote_7">7</a></sup></td>
+  <td>887</td>
+  <td>0.329</td>
+  <td>2.18</td>
+  <td>1.8</td>
+</tr>
+<tr>
+  <td>34</td>
+  <td style="background-color:#a0ffa0">Se</td>
+  <td><a href="/wiki/Selenium" title="Selenium">Selenium</a></td>
+  <td><a href="/wiki/Moon" title="Moon">Moon</a> (with the Greek name <i>selene</i>)</td>
+  <td>16</td>
+  <td>4</td>
+  <td><span class="sorttext">78.96(3)</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_4"><a href="#endnote_4">4</a></sup></td>
+  <td>4.809</td>
+  <td>494.15</td>
+  <td>958</td>
+  <td>0.321</td>
+  <td>2.55</td>
+  <td>0.05</td>
+</tr>
+<tr>
+  <td>35</td>
+  <td style="background-color:#ffff99">Br</td>
+  <td><a href="/wiki/Bromine" title="Bromine">Bromine</a></td>
+  <td>the Greek 'bromos' meaning <i>stench</i></td>
+  <td>17</td>
+  <td>4</td>
+  <td><span class="sorttext">79.904(1)</span></td>
+  <td>3.122</td>
+  <td>266.05</td>
+  <td>332.0</td>
+  <td>0.474</td>
+  <td>2.96</td>
+  <td>2.4</td>
+</tr>
+<tr>
+  <td>36</td>
+  <td style="background-color:#c0ffff">Kr</td>
+  <td><a href="/wiki/Krypton" title="Krypton">Krypton</a></td>
+  <td>the Greek 'kryptos', meaning <i>hidden</i></td>
+  <td>18</td>
+  <td>4</td>
+  <td><span class="sorttext">83.798(2)</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_3"><a href="#endnote_3">3</a></sup></td>
+  <td>0.003733</td>
+  <td>115.93</td>
+  <td>119.93</td>
+  <td>0.248</td>
+  <td>3</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>37</td>
+  <td style="background-color:#ff6666">Rb</td>
+  <td><a href="/wiki/Rubidium" title="Rubidium">Rubidium</a></td>
+  <td>the Latin 'rubidius', meaning <i>deepest red</i></td>
+  <td>1</td>
+  <td>5</td>
+  <td><span class="sorttext">85.4678(3)</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>1.532</td>
+  <td>312.79</td>
+  <td>961</td>
+  <td>0.363</td>
+  <td>0.82</td>
+  <td>90</td>
+</tr>
+<tr>
+  <td>38</td>
+  <td style="background-color:#ffdead">Sr</td>
+  <td><a href="/wiki/Strontium" title="Strontium">Strontium</a></td>
+  <td><a href="/wiki/Strontian" title="Strontian">Strontian</a>, a small town in <a href="/wiki/Scotland"
+                                                                                    title="Scotland">Scotland</a></td>
+  <td>2</td>
+  <td>5</td>
+  <td><span class="sorttext">87.62(1)</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_4"><a href="#endnote_4">4</a></sup></td>
+  <td>2.64</td>
+  <td>1042.15</td>
+  <td>1655</td>
+  <td>0.301</td>
+  <td>0.95</td>
+  <td>370</td>
+</tr>
+<tr>
+  <td>39</td>
+  <td style="background-color:#ffc0c0">Y</td>
+  <td><a href="/wiki/Yttrium" title="Yttrium">Yttrium</a></td>
+  <td><a href="/wiki/Ytterby" title="Ytterby">Ytterby</a>, <a href="/wiki/Sweden" title="Sweden">Sweden</a></td>
+  <td>3</td>
+  <td>5</td>
+  <td><span class="sorttext">88.90585(2)</span></td>
+  <td>4.469</td>
+  <td>1799.15</td>
+  <td>3609</td>
+  <td>0.298</td>
+  <td>1.22</td>
+  <td>33</td>
+</tr>
+<tr>
+  <td>40</td>
+  <td style="background-color:#ffc0c0">Zr</td>
+  <td><a href="/wiki/Zirconium" title="Zirconium">Zirconium</a></td>
+  <td>the Arabic 'zargun', meaning <i>gold coloured</i></td>
+  <td>4</td>
+  <td>5</td>
+  <td><span class="sorttext">91.224(2)</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>6.506</td>
+  <td>2125.15</td>
+  <td>4682</td>
+  <td>0.278</td>
+  <td>1.33</td>
+  <td>165</td>
+</tr>
+<tr>
+  <td>41</td>
+  <td style="background-color:#ffc0c0">Nb</td>
+  <td><a href="/wiki/Niobium" title="Niobium">Niobium</a></td>
+  <td><a href="/wiki/Niobe" title="Niobe">Niobe</a>, daughter of king <a href="/wiki/Tantalus"
+                                                                         title="Tantalus">Tantalus</a>
+    from Greek mythology
+  </td>
+  <td>5</td>
+  <td>5</td>
+  <td><span class="sorttext">92.90638(2)</span></td>
+  <td>8.57</td>
+  <td>2741.15</td>
+  <td>5017</td>
+  <td>0.265</td>
+  <td>1.6</td>
+  <td>20</td>
+</tr>
+<tr>
+  <td>42</td>
+  <td style="background-color:#ffc0c0">Mo</td>
+  <td><a href="/wiki/Molybdenum" title="Molybdenum">Molybdenum</a></td>
+  <td>the Greek 'molybdos' meaning <i>lead</i></td>
+  <td>6</td>
+  <td>5</td>
+  <td><span class="sorttext">95.96(2)</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>10.22</td>
+  <td>2890.15</td>
+  <td>4912</td>
+  <td>0.251</td>
+  <td>2.16</td>
+  <td>1.2</td>
+</tr>
+<tr>
+  <td>43</td>
+  <td style="background-color:#ffc0c0">Tc</td>
+  <td><a href="/wiki/Technetium" title="Technetium">Technetium</a></td>
+  <td>the Greek 'tekhnetos' meaning <i>artificial</i></td>
+  <td>7</td>
+  <td>5</td>
+  <td><span class="sorttext">[98]<sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></span></td>
+  <td>11.5</td>
+  <td>2473.15</td>
+  <td>5150</td>
+  <td>&ndash;</td>
+  <td>1.9</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>44</td>
+  <td style="background-color:#ffc0c0">Ru</td>
+  <td><a href="/wiki/Ruthenium" title="Ruthenium">Ruthenium</a></td>
+  <td><a href="/wiki/Russia" title="Russia">Russia</a> (with the Latin name <i>Ruthenia</i>)</td>
+  <td>8</td>
+  <td>5</td>
+  <td>101.07(2)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>12.37</td>
+  <td>2523.15</td>
+  <td>4423</td>
+  <td>0.238</td>
+  <td>2.2</td>
+  <td>0.001</td>
+</tr>
+<tr>
+  <td>45</td>
+  <td style="background-color:#ffc0c0">Rh</td>
+  <td><a href="/wiki/Rhodium" title="Rhodium">Rhodium</a></td>
+  <td>the Greek 'rhodon', meaning <i>rose coloured</i></td>
+  <td>9</td>
+  <td>5</td>
+  <td>102.90550(2)</td>
+  <td>12.41</td>
+  <td>2239.15</td>
+  <td>3968</td>
+  <td>0.243</td>
+  <td>2.28</td>
+  <td>0.001</td>
+</tr>
+<tr>
+  <td>46</td>
+  <td style="background-color:#ffc0c0">Pd</td>
+  <td><a href="/wiki/Palladium" title="Palladium">Palladium</a></td>
+  <td><a href="/wiki/Athena" title="Athena">Athena</a> (Pallas Athena), the goddess of wisdom from Greek mythology
+  </td>
+  <td>10</td>
+  <td>5</td>
+  <td>106.42(1)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>12.02</td>
+  <td>1825.15</td>
+  <td>3236</td>
+  <td>0.244</td>
+  <td>2.2</td>
+  <td>0.015</td>
+</tr>
+<tr>
+  <td>47</td>
+  <td style="background-color:#ffc0c0">Ag</td>
+  <td><a href="/wiki/Silver" title="Silver">Silver</a></td>
+  <td>the <a href="/wiki/Anglo-Saxon" title="Anglo-Saxon" class="mw-redirect">Anglo-Saxon</a> name <i>siolfur</i> (<i>argentum</i>
+    in Latin)<sup id="cite_ref-innvista_2-3" class="reference"><a
+            href="#cite_note-innvista-2"><span>[</span>2<span>]</span></a></sup>
+  </td>
+  <td>11</td>
+  <td>5</td>
+  <td>107.8682(2)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>10.501</td>
+  <td>1234.15</td>
+  <td>2435</td>
+  <td>0.235</td>
+  <td>1.93</td>
+  <td>0.075</td>
+</tr>
+<tr>
+  <td>48</td>
+  <td style="background-color:#ffc0c0">Cd</td>
+  <td><a href="/wiki/Cadmium" title="Cadmium">Cadmium</a></td>
+  <td>the Latin name for the mineral calmine, 'cadmia'</td>
+  <td>12</td>
+  <td>5</td>
+  <td>112.411(8)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>8.69</td>
+  <td>594.33</td>
+  <td>1040</td>
+  <td>0.232</td>
+  <td>1.69</td>
+  <td>0.159</td>
+</tr>
+<tr>
+  <td>49</td>
+  <td style="background-color:#cccccc">In</td>
+  <td><a href="/wiki/Indium" title="Indium">Indium</a></td>
+  <td>the Latin 'indicium', meaning <i>violet</i> or <i>indigo</i></td>
+  <td>13</td>
+  <td>5</td>
+  <td>114.818(3)</td>
+  <td>7.31</td>
+  <td>429.91</td>
+  <td>2345</td>
+  <td>0.233</td>
+  <td>1.78</td>
+  <td>0.25</td>
+</tr>
+<tr>
+  <td>50</td>
+  <td style="background-color:#cccccc">Sn</td>
+  <td><a href="/wiki/Tin" title="Tin">Tin</a></td>
+  <td>the Anglo-Saxon word <i>tin</i> (<i>stannum</i> in Latin, meaning <i>hard</i>)</td>
+  <td>14</td>
+  <td>5</td>
+  <td>118.710(7)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>7.287</td>
+  <td>505.21</td>
+  <td>2875</td>
+  <td>0.228</td>
+  <td>1.96</td>
+  <td>2.3</td>
+</tr>
+<tr>
+  <td>51</td>
+  <td style="background-color:#cccc99">Sb</td>
+  <td><a href="/wiki/Antimony" title="Antimony">Antimony</a></td>
+  <td>the Greek 'anti - monos', meaning <i>not alone</i> (<i>stibium</i> in Latin)</td>
+  <td>15</td>
+  <td>5</td>
+  <td>121.760(1)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>6.685</td>
+  <td>904.05</td>
+  <td>1860</td>
+  <td>0.207</td>
+  <td>2.05</td>
+  <td>0.2</td>
+</tr>
+<tr>
+  <td>52</td>
+  <td style="background-color:#cccc99">Te</td>
+  <td><a href="/wiki/Tellurium" title="Tellurium">Tellurium</a></td>
+  <td><a href="/wiki/Earth" title="Earth">Earth</a>, the third planet on <a href="/wiki/Solar_system"
+                                                                            title="Solar system" class="mw-redirect">solar
+    system</a> (with the Latin word <i>tellus</i>)
+  </td>
+  <td>16</td>
+  <td>5</td>
+  <td>127.60(3)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>6.232</td>
+  <td>722.8</td>
+  <td>1261</td>
+  <td>0.202</td>
+  <td>2.1</td>
+  <td>0.001</td>
+</tr>
+<tr>
+  <td>53</td>
+  <td style="background-color:#ffff99">I</td>
+  <td><a href="/wiki/Iodine" title="Iodine">Iodine</a></td>
+  <td>the Greek 'iodes' meaning <i>violet</i></td>
+  <td>17</td>
+  <td>5</td>
+  <td>126.90447(3)</td>
+  <td>4.93</td>
+  <td>386.65</td>
+  <td>457.4</td>
+  <td>0.214</td>
+  <td>2.66</td>
+  <td>0.45</td>
+</tr>
+<tr>
+  <td>54</td>
+  <td style="background-color:#c0ffff">Xe</td>
+  <td><a href="/wiki/Xenon" title="Xenon">Xenon</a></td>
+  <td>the Greek 'xenos' meaning <i>stranger</i></td>
+  <td>18</td>
+  <td>5</td>
+  <td>131.293(6)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_3"><a href="#endnote_3">3</a></sup></td>
+  <td>0.005887</td>
+  <td>161.45</td>
+  <td>165.03</td>
+  <td>0.158</td>
+  <td>2.6</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>55</td>
+  <td style="background-color:#ff6666">Cs</td>
+  <td><a href="/wiki/Caesium" title="Caesium">Caesium</a></td>
+  <td>the Latin 'caesius', meaning <i>sky blue</i></td>
+  <td>1</td>
+  <td>6</td>
+  <td>132.9054519(2)</td>
+  <td>1.873</td>
+  <td>301.7</td>
+  <td>944</td>
+  <td>0.242</td>
+  <td>0.79</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>56</td>
+  <td style="background-color:#ffdead">Ba</td>
+  <td><a href="/wiki/Barium" title="Barium">Barium</a></td>
+  <td>the Greek 'barys', meaning <i>heavy</i></td>
+  <td>2</td>
+  <td>6</td>
+  <td>137.327(7)</td>
+  <td>3.594</td>
+  <td>1002.15</td>
+  <td>2170</td>
+  <td>0.204</td>
+  <td>0.89</td>
+  <td>425</td>
+</tr>
+<tr>
+  <td>57</td>
+  <td style="background-color:#ffbfff">La</td>
+  <td><a href="/wiki/Lanthanum" title="Lanthanum">Lanthanum</a></td>
+  <td>the Greek 'lanthanein', meaning <i>to lie hidden</i></td>
+  <td></td>
+  <td>6</td>
+  <td>138.90547(7)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>6.145</td>
+  <td>1193.15</td>
+  <td>3737</td>
+  <td>0.195</td>
+  <td>1.1</td>
+  <td>39</td>
+</tr>
+<tr>
+  <td>58</td>
+  <td style="background-color:#ffbfff">Ce</td>
+  <td><a href="/wiki/Cerium" title="Cerium">Cerium</a></td>
+  <td><a href="/wiki/Ceres_(Roman_mythology)" title="Ceres (Roman mythology)" class="mw-redirect">Ceres</a>, the <a
+          href="/wiki/Roman_mythology" title="Roman mythology">Roman</a> God of agriculture
+  </td>
+  <td></td>
+  <td>6</td>
+  <td>140.116(1)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>6.77</td>
+  <td>1071.15</td>
+  <td>3716</td>
+  <td>0.192</td>
+  <td>1.12</td>
+  <td>66.5</td>
+</tr>
+<tr>
+  <td>59</td>
+  <td style="background-color:#ffbfff">Pr</td>
+  <td><a href="/wiki/Praseodymium" title="Praseodymium">Praseodymium</a></td>
+  <td>the Greek 'prasios didymos' meaning <i>green twin</i></td>
+  <td></td>
+  <td>6</td>
+  <td>140.90765(2)</td>
+  <td>6.773</td>
+  <td>1204.15</td>
+  <td>3793</td>
+  <td>0.193</td>
+  <td>1.13</td>
+  <td>9.2</td>
+</tr>
+<tr>
+  <td>60</td>
+  <td style="background-color:#ffbfff">Nd</td>
+  <td><a href="/wiki/Neodymium" title="Neodymium">Neodymium</a></td>
+  <td>the Greek 'neos didymos' meaning <i>new twin</i></td>
+  <td></td>
+  <td>6</td>
+  <td>144.242(3)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>7.007</td>
+  <td>1289.15</td>
+  <td>3347</td>
+  <td>0.19</td>
+  <td>1.14</td>
+  <td>41.5</td>
+</tr>
+<tr>
+  <td>61</td>
+  <td style="background-color:#ffbfff">Pm</td>
+  <td><a href="/wiki/Promethium" title="Promethium">Promethium</a></td>
+  <td><a href="/wiki/Prometheus" title="Prometheus">Prometheus</a> of Greek mythology who stole fire from the Gods and
+    gave it to humans
+  </td>
+  <td></td>
+  <td>6</td>
+  <td><span class="sorttext">[145]<sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></span></td>
+  <td>7.26</td>
+  <td>1204.15</td>
+  <td>3273</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>62</td>
+  <td style="background-color:#ffbfff">Sm</td>
+  <td><a href="/wiki/Samarium" title="Samarium">Samarium</a></td>
+  <td><a href="/wiki/Samarskite" title="Samarskite" class="mw-redirect">Samarskite</a>, the name of the mineral from
+    which it was first isolated
+  </td>
+  <td></td>
+  <td>6</td>
+  <td>150.36(2)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>7.52</td>
+  <td>1345.15</td>
+  <td>2067</td>
+  <td>0.197</td>
+  <td>1.17</td>
+  <td>7.05</td>
+</tr>
+<tr>
+  <td>63</td>
+  <td style="background-color:#ffbfff">Eu</td>
+  <td><a href="/wiki/Europium" title="Europium">Europium</a></td>
+  <td><a href="/wiki/Europe" title="Europe">Europe</a></td>
+  <td></td>
+  <td>6</td>
+  <td>151.964(1)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>5.243</td>
+  <td>1095.15</td>
+  <td>1802</td>
+  <td>0.182</td>
+  <td>1.2</td>
+  <td>2</td>
+</tr>
+<tr>
+  <td>64</td>
+  <td style="background-color:#ffbfff">Gd</td>
+  <td><a href="/wiki/Gadolinium" title="Gadolinium">Gadolinium</a></td>
+  <td><a href="/wiki/Johan_Gadolin" title="Johan Gadolin">Johan Gadolin</a>, chemist, physicist and mineralogist</td>
+  <td></td>
+  <td>6</td>
+  <td>157.25(3)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>7.895</td>
+  <td>1585.15</td>
+  <td>3546</td>
+  <td>0.236</td>
+  <td>1.2</td>
+  <td>6.2</td>
+</tr>
+<tr>
+  <td>65</td>
+  <td style="background-color:#ffbfff">Tb</td>
+  <td><a href="/wiki/Terbium" title="Terbium">Terbium</a></td>
+  <td>Ytterby, Sweden</td>
+  <td></td>
+  <td>6</td>
+  <td>158.92535(2)</td>
+  <td>8.229</td>
+  <td>1630.15</td>
+  <td>3503</td>
+  <td>0.182</td>
+  <td>1.2</td>
+  <td>1.2</td>
+</tr>
+<tr>
+  <td>66</td>
+  <td style="background-color:#ffbfff">Dy</td>
+  <td><a href="/wiki/Dysprosium" title="Dysprosium">Dysprosium</a></td>
+  <td>the Greek 'dysprositos', meaning <i>hard to get</i></td>
+  <td></td>
+  <td>6</td>
+  <td>162.500(1)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>8.55</td>
+  <td>1680.15</td>
+  <td>2840</td>
+  <td>0.17</td>
+  <td>1.22</td>
+  <td>5.2</td>
+</tr>
+<tr>
+  <td>67</td>
+  <td style="background-color:#ffbfff">Ho</td>
+  <td><a href="/wiki/Holmium" title="Holmium">Holmium</a></td>
+  <td><a href="/wiki/Stockholm" title="Stockholm">Stockholm</a>, Sweden (with the Latin name <i>Holmia</i>)</td>
+  <td></td>
+  <td>6</td>
+  <td>164.93032(2)</td>
+  <td>8.795</td>
+  <td>1743.15</td>
+  <td>2993</td>
+  <td>0.165</td>
+  <td>1.23</td>
+  <td>1.3</td>
+</tr>
+<tr>
+  <td>68</td>
+  <td style="background-color:#ffbfff">Er</td>
+  <td><a href="/wiki/Erbium" title="Erbium">Erbium</a></td>
+  <td>Ytterby, Sweden</td>
+  <td></td>
+  <td>6</td>
+  <td>167.259(3)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>9.066</td>
+  <td>1795.15</td>
+  <td>3503</td>
+  <td>0.168</td>
+  <td>1.24</td>
+  <td>3.5</td>
+</tr>
+<tr>
+  <td>69</td>
+  <td style="background-color:#ffbfff">Tm</td>
+  <td><a href="/wiki/Thulium" title="Thulium">Thulium</a></td>
+  <td><a href="/wiki/Thule" title="Thule">Thule</a>, the ancient name for Scandinavia</td>
+  <td></td>
+  <td>6</td>
+  <td>168.93421(2)</td>
+  <td>9.321</td>
+  <td>1818.15</td>
+  <td>2223</td>
+  <td>0.16</td>
+  <td>1.25</td>
+  <td>0.52</td>
+</tr>
+<tr>
+  <td>70</td>
+  <td style="background-color:#ffbfff">Yb</td>
+  <td><a href="/wiki/Ytterbium" title="Ytterbium">Ytterbium</a></td>
+  <td>Ytterby, Sweden</td>
+  <td></td>
+  <td>6</td>
+  <td>173.054(5)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>6.965</td>
+  <td>1097.15</td>
+  <td>1469</td>
+  <td>0.155</td>
+  <td>1.1</td>
+  <td>3.2</td>
+</tr>
+<tr>
+  <td>71</td>
+  <td style="background-color:#ffbfff">Lu</td>
+  <td><a href="/wiki/Lutetium" title="Lutetium">Lutetium</a></td>
+  <td><a href="/wiki/Paris" title="Paris">Paris</a>, France (with the Roman name <i>Lutetia</i>)</td>
+  <td>3</td>
+  <td>6</td>
+  <td>174.9668(1)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>9.84</td>
+  <td>1936.15</td>
+  <td>3675</td>
+  <td>0.154</td>
+  <td>1.27</td>
+  <td>0.8</td>
+</tr>
+<tr>
+  <td>72</td>
+  <td style="background-color:#ffc0c0">Hf</td>
+  <td><a href="/wiki/Hafnium" title="Hafnium">Hafnium</a></td>
+  <td><a href="/wiki/Copenhagen" title="Copenhagen">Copenhagen</a>, Denmark (with the Latin name <i>Hafnia</i>)</td>
+  <td>4</td>
+  <td>6</td>
+  <td>178.49(2)</td>
+  <td>13.31</td>
+  <td>2500.15</td>
+  <td>4876</td>
+  <td>0.144</td>
+  <td>1.3</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>73</td>
+  <td style="background-color:#ffc0c0">Ta</td>
+  <td><a href="/wiki/Tantalum" title="Tantalum">Tantalum</a></td>
+  <td>King <a href="/wiki/Tantalus" title="Tantalus">Tantalus</a>, father of Niobe from Greek mythology</td>
+  <td>5</td>
+  <td>6</td>
+  <td>180.94788(2)</td>
+  <td>16.654</td>
+  <td>3269.15</td>
+  <td>5731</td>
+  <td>0.14</td>
+  <td>1.5</td>
+  <td>2</td>
+</tr>
+<tr>
+  <td>74</td>
+  <td style="background-color:#ffc0c0">W</td>
+  <td><a href="/wiki/Tungsten" title="Tungsten">Tungsten</a></td>
+  <td>the Swedish 'tung sten' meaning <i>heavy stone</i> (W is <i>wolfram</i>, the old name of the tungsten mineral
+    wolframite)<sup id="cite_ref-innvista_2-4" class="reference"><a
+            href="#cite_note-innvista-2"><span>[</span>2<span>]</span></a></sup></td>
+  <td>6</td>
+  <td>6</td>
+  <td>183.84(1)</td>
+  <td>19.25</td>
+  <td>3680.15</td>
+  <td>5828</td>
+  <td>0.132</td>
+  <td>2.36</td>
+  <td>1.3</td>
+</tr>
+<tr>
+  <td>75</td>
+  <td style="background-color:#ffc0c0">Re</td>
+  <td><a href="/wiki/Rhenium" title="Rhenium">Rhenium</a></td>
+  <td><a href="/wiki/Rhine" title="Rhine">Rhine</a>, a river that flows from <a href="/wiki/Grisons" title="Grisons"
+                                                                                class="mw-redirect">Grisons</a> in the
+    eastern <a href="/wiki/Swiss_Alps" title="Swiss Alps">Swiss Alps</a> to the <a href="/wiki/North_Sea"
+                                                                                   title="North Sea">North Sea</a>
+    coast in the <a href="/wiki/Netherlands" title="Netherlands">Netherlands</a> (with the Latin name <i>Rhenia</i>)
+  </td>
+  <td>7</td>
+  <td>6</td>
+  <td>186.207(1)</td>
+  <td>21.02</td>
+  <td>3453.15</td>
+  <td>5869</td>
+  <td>0.137</td>
+  <td>1.9</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>76</td>
+  <td style="background-color:#ffc0c0">Os</td>
+  <td><a href="/wiki/Osmium" title="Osmium">Osmium</a></td>
+  <td>the Greek 'osme', meaning <i>smell</i></td>
+  <td>8</td>
+  <td>6</td>
+  <td>190.23(3)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>22.61</td>
+  <td>3300.15</td>
+  <td>5285</td>
+  <td>0.13</td>
+  <td>2.2</td>
+  <td>0.002</td>
+</tr>
+<tr>
+  <td>77</td>
+  <td style="background-color:#ffc0c0">Ir</td>
+  <td><a href="/wiki/Iridium" title="Iridium">Iridium</a></td>
+  <td><a href="/wiki/Iris_(mythology)" title="Iris (mythology)">Iris</a>, the Greek goddess of the rainbow</td>
+  <td>9</td>
+  <td>6</td>
+  <td>192.217(3)</td>
+  <td>22.56</td>
+  <td>2716.15</td>
+  <td>4701</td>
+  <td>0.131</td>
+  <td>2.2</td>
+  <td>0.001</td>
+</tr>
+<tr>
+  <td>78</td>
+  <td style="background-color:#ffc0c0">Pt</td>
+  <td><a href="/wiki/Platinum" title="Platinum">Platinum</a></td>
+  <td>the <a href="/wiki/Spanish_language" title="Spanish language">Spanish</a> 'platina', meaning <i>little
+    silver</i></td>
+  <td>10</td>
+  <td>6</td>
+  <td>195.084(9)</td>
+  <td>21.46</td>
+  <td>2045.15</td>
+  <td>4098</td>
+  <td>0.133</td>
+  <td>2.28</td>
+  <td>0.005</td>
+</tr>
+<tr>
+  <td>79</td>
+  <td style="background-color:#ffc0c0">Au</td>
+  <td><a href="/wiki/Gold" title="Gold">Gold</a></td>
+  <td>the Anglo-Saxon word <i>gold</i>, from Latin <i>geolo</i>, meaning yellow (aurum in Latin, meaning <i>glow of
+    sunrise</i>)<sup id="cite_ref-innvista_2-5" class="reference"><a
+          href="#cite_note-innvista-2"><span>[</span>2<span>]</span></a></sup></td>
+  <td>11</td>
+  <td>6</td>
+  <td>196.966569(4)</td>
+  <td>19.282</td>
+  <td>1337.73</td>
+  <td>3129</td>
+  <td>0.129</td>
+  <td>2.54</td>
+  <td>0.004</td>
+</tr>
+<tr>
+  <td>80</td>
+  <td style="background-color:#ffc0c0">Hg</td>
+  <td><a href="/wiki/Mercury_(element)" title="Mercury (element)">Mercury</a></td>
+  <td><a href="/wiki/Mercury_(planet)" title="Mercury (planet)">Mercury</a>, the first planet in the <a
+          href="/wiki/Solar_System" title="Solar System">Solar System</a> (Hg from former name <i>hydrargyrum,</i>
+    from Greek <i>hydr-</i> water and <i>argyros</i> silver)
+  </td>
+  <td>12</td>
+  <td>6</td>
+  <td>200.59(2)</td>
+  <td>13.5336</td>
+  <td>234.43</td>
+  <td>630</td>
+  <td>0.14</td>
+  <td>2</td>
+  <td>0.085</td>
+</tr>
+<tr>
+  <td>81</td>
+  <td style="background-color:#cccccc">Tl</td>
+  <td><a href="/wiki/Thallium" title="Thallium">Thallium</a></td>
+  <td>the Greek 'thallos', meaning <i>a green twig</i></td>
+  <td>13</td>
+  <td>6</td>
+  <td>204.38(1)<sup class="reference plainlinks nourlexpansion" id="ref_9"><a href="#endnote_9">9</a></sup></td>
+  <td>11.85</td>
+  <td>577.15</td>
+  <td>1746</td>
+  <td>0.129</td>
+  <td>1.62</td>
+  <td>0.85</td>
+</tr>
+<tr>
+  <td>82</td>
+  <td style="background-color:#cccccc">Pb</td>
+  <td><a href="/wiki/Lead" title="Lead">Lead</a></td>
+  <td>the Anglo-Saxon <i>lead</i> (<i>plumbum</i> in Latin)<sup id="cite_ref-innvista_2-6" class="reference"><a
+          href="#cite_note-innvista-2"><span>[</span>2<span>]</span></a></sup></td>
+  <td>14</td>
+  <td>6</td>
+  <td>207.2(1)<sup class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_4"><a href="#endnote_4">4</a></sup></td>
+  <td>11.342</td>
+  <td>600.75</td>
+  <td>2022</td>
+  <td>0.129</td>
+  <td>2.33</td>
+  <td>14</td>
+</tr>
+<tr>
+  <td>83</td>
+  <td style="background-color:#cccccc">Bi</td>
+  <td><a href="/wiki/Bismuth" title="Bismuth">Bismuth</a></td>
+  <td>the German 'Bisemutum' a corruption of 'Weisse Masse' meaning <i>white mass</i></td>
+  <td>15</td>
+  <td>6</td>
+  <td>208.98040(1)<sup class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>9.807</td>
+  <td>544.67</td>
+  <td>1837</td>
+  <td>0.122</td>
+  <td>2.02</td>
+  <td>0.009</td>
+</tr>
+<tr>
+  <td>84</td>
+  <td style="background-color:#cccccc">Po</td>
+  <td><a href="/wiki/Polonium" title="Polonium">Polonium</a></td>
+  <td><a href="/wiki/Poland" title="Poland">Poland</a>, the native country of <a href="/wiki/Marie_Curie"
+                                                                                 title="Marie Curie">Marie Curie</a>,
+    who first isolated the element
+  </td>
+  <td>16</td>
+  <td>6</td>
+  <td><span class="sorttext">[209]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>9.32</td>
+  <td>527.15</td>
+  <td>1235</td>
+  <td>&ndash;</td>
+  <td>2</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>85</td>
+  <td style="background-color:#ffff99">At</td>
+  <td><a href="/wiki/Astatine" title="Astatine">Astatine</a></td>
+  <td>the Greek 'astatos', meaning <i>unstable</i></td>
+  <td>17</td>
+  <td>6</td>
+  <td><span class="sorttext">[210]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>7</td>
+  <td>575.15</td>
+  <td>610</td>
+  <td>&ndash;</td>
+  <td>2.2</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>86</td>
+  <td style="background-color:#c0ffff">Rn</td>
+  <td><a href="/wiki/Radon" title="Radon">Radon</a></td>
+  <td>From <i>radium</i>, as it was first detected as an emission from radium during radioactive decay</td>
+  <td>18</td>
+  <td>6</td>
+  <td><span class="sorttext">[222]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>0.00973</td>
+  <td>202.15</td>
+  <td>211.3</td>
+  <td>0.094</td>
+  <td>&ndash;</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>87</td>
+  <td style="background-color:#ff6666">Fr</td>
+  <td><a href="/wiki/Francium" title="Francium">Francium</a></td>
+  <td>France</td>
+  <td>1</td>
+  <td>7</td>
+  <td><span class="sorttext">[223]<sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></span></td>
+  <td>1.87</td>
+  <td>300.15</td>
+  <td>950</td>
+  <td>&ndash;</td>
+  <td>0.7</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>88</td>
+  <td style="background-color:#ffdead">Ra</td>
+  <td><a href="/wiki/Radium" title="Radium">Radium</a></td>
+  <td>the Latin 'radius', meaning <i>ray</i></td>
+  <td>2</td>
+  <td>7</td>
+  <td><span class="sorttext">[226]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>5.5</td>
+  <td>973.15</td>
+  <td>2010</td>
+  <td>&ndash;</td>
+  <td>0.9</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>89</td>
+  <td style="background-color:#ff99cc">Ac</td>
+  <td><a href="/wiki/Actinium" title="Actinium">Actinium</a></td>
+  <td>the Greek 'actinos', meaning <i>a ray</i></td>
+  <td></td>
+  <td>7</td>
+  <td><span class="sorttext">[227]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>10.07</td>
+  <td>1323.15</td>
+  <td>3471</td>
+  <td>0.12</td>
+  <td>1.1</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>90</td>
+  <td style="background-color:#ff99cc">Th</td>
+  <td><a href="/wiki/Thorium" title="Thorium">Thorium</a></td>
+  <td><a href="/wiki/Thor" title="Thor">Thor</a>, the Scandinavian god of thunder</td>
+  <td></td>
+  <td>7</td>
+  <td>232.03806(2)<sup class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup> <sup
+          class="reference plainlinks nourlexpansion" id="ref_2"><a href="#endnote_2">2</a></sup></td>
+  <td>11.72</td>
+  <td>2028.15</td>
+  <td>5061</td>
+  <td>0.113</td>
+  <td>1.3</td>
+  <td>9.6</td>
+</tr>
+<tr>
+  <td>91</td>
+  <td style="background-color:#ff99cc">Pa</td>
+  <td><a href="/wiki/Protactinium" title="Protactinium">Protactinium</a></td>
+  <td>the Greek 'protos', meaning <i>first</i>, as a prefix to the element actinium, which is produced through the
+    radioactive decay of protactinium
+  </td>
+  <td></td>
+  <td>7</td>
+  <td>231.03588(2)<sup class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>15.37</td>
+  <td>1873.15</td>
+  <td>4300</td>
+  <td>&ndash;</td>
+  <td>1.5</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>92</td>
+  <td style="background-color:#ff99cc">U</td>
+  <td><a href="/wiki/Uranium" title="Uranium">Uranium</a></td>
+  <td><a href="/wiki/Uranus" title="Uranus">Uranus</a>, the seventh planet in the Solar System</td>
+  <td></td>
+  <td>7</td>
+  <td>238.02891(3)<sup class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>18.95</td>
+  <td>1405.15</td>
+  <td>4404</td>
+  <td>0.116</td>
+  <td>1.38</td>
+  <td>2.7</td>
+</tr>
+<tr>
+  <td>93</td>
+  <td style="background-color:#ff99cc">Np</td>
+  <td><a href="/wiki/Neptunium" title="Neptunium">Neptunium</a></td>
+  <td><a href="/wiki/Neptune" title="Neptune">Neptune</a>, the eighth planet in the Solar System</td>
+  <td></td>
+  <td>7</td>
+  <td><span class="sorttext">[237]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>20.45</td>
+  <td>913.15</td>
+  <td>4273</td>
+  <td>&ndash;</td>
+  <td>1.36</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>94</td>
+  <td style="background-color:#ff99cc">Pu</td>
+  <td><a href="/wiki/Plutonium" title="Plutonium">Plutonium</a></td>
+  <td><a href="/wiki/Pluto" title="Pluto">Pluto</a>, a dwarf planet in the Solar System</td>
+  <td></td>
+  <td>7</td>
+  <td><span class="sorttext">[244]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>19.84</td>
+  <td>913.15</td>
+  <td>3501</td>
+  <td>&ndash;</td>
+  <td>1.28</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>95</td>
+  <td style="background-color:#ff99cc">Am</td>
+  <td><a href="/wiki/Americium" title="Americium">Americium</a></td>
+  <td><a href="/wiki/Americas" title="Americas">Americas</a>, the continent where the element was first synthesized
+  </td>
+  <td></td>
+  <td>7</td>
+  <td><span class="sorttext">[243]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>13.69</td>
+  <td>1267.15</td>
+  <td>2880</td>
+  <td>&ndash;</td>
+  <td>1.3</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>96</td>
+  <td style="background-color:#ff99cc">Cm</td>
+  <td><a href="/wiki/Curium" title="Curium">Curium</a></td>
+  <td><a href="/wiki/Pierre_Curie" title="Pierre Curie">Pierre Curie</a>, a physicist, and <a href="/wiki/Marie_Curie"
+                                                                                              title="Marie Curie">Marie
+    Curie</a>, a physicist and chemist
+  </td>
+  <td></td>
+  <td>7</td>
+  <td><span class="sorttext">[247]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>13.51</td>
+  <td>1340.15</td>
+  <td>3383</td>
+  <td>&ndash;</td>
+  <td>1.3</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>97</td>
+  <td style="background-color:#ff99cc">Bk</td>
+  <td><a href="/wiki/Berkelium" title="Berkelium">Berkelium</a></td>
+  <td><a href="/wiki/Berkeley,_California" title="Berkeley, California">Berkeley, California</a>, USA, where the
+    element was first synthesized
+  </td>
+  <td></td>
+  <td>7</td>
+  <td><span class="sorttext">[247]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>14.79</td>
+  <td>1259.15</td>
+  <td>983</td>
+  <td>&ndash;</td>
+  <td>1.3</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>98</td>
+  <td style="background-color:#ff99cc">Cf</td>
+  <td><a href="/wiki/Californium" title="Californium">Californium</a></td>
+  <td><a href="/wiki/State_of_California" title="State of California" class="mw-redirect">State of California</a>,
+    USA, where the element was first synthesized
+  </td>
+  <td></td>
+  <td>7</td>
+  <td><span class="sorttext">[251]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>15.1</td>
+  <td>1925.15</td>
+  <td>1173</td>
+  <td>&ndash;</td>
+  <td>1.3</td>
+  <td>&lt;0.001</td>
+</tr>
+<tr>
+  <td>99</td>
+  <td style="background-color:#ff99cc">Es</td>
+  <td><a href="/wiki/Einsteinium" title="Einsteinium">Einsteinium</a></td>
+  <td><a href="/wiki/Albert_Einstein" title="Albert Einstein">Albert Einstein</a>, physicist</td>
+  <td></td>
+  <td>7</td>
+  <td><span class="sorttext">[252]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>13.5</td>
+  <td>1133.15</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>1.3</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>100</td>
+  <td style="background-color:#ff99cc">Fm</td>
+  <td><a href="/wiki/Fermium" title="Fermium">Fermium</a></td>
+  <td><a href="/wiki/Enrico_Fermi" title="Enrico Fermi">Enrico Fermi</a>, physicist</td>
+  <td></td>
+  <td>7</td>
+  <td><span class="sorttext">[257]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>1800</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>1.3</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>101</td>
+  <td style="background-color:#ff99cc">Md</td>
+  <td><a href="/wiki/Mendelevium" title="Mendelevium">Mendelevium</a></td>
+  <td><a href="/wiki/Dmitri_Mendeleyev" title="Dmitri Mendeleyev" class="mw-redirect">Dmitri Mendeleyev</a>, chemist
+    and inventor
+  </td>
+  <td></td>
+  <td>7</td>
+  <td><span class="sorttext">[258]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>1100</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>1.3</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>102</td>
+  <td style="background-color:#ff99cc">No</td>
+  <td><a href="/wiki/Nobelium" title="Nobelium">Nobelium</a></td>
+  <td><a href="/wiki/Alfred_Nobel" title="Alfred Nobel">Alfred Nobel</a>, chemist, engineer, innovator, and armaments
+    manufacturer
+  </td>
+  <td></td>
+  <td>7</td>
+  <td><span class="sorttext">[259]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>1100</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>1.3</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>103</td>
+  <td style="background-color:#ff99cc">Lr</td>
+  <td><a href="/wiki/Lawrencium" title="Lawrencium">Lawrencium</a></td>
+  <td><a href="/wiki/Ernest_O._Lawrence" title="Ernest O. Lawrence" class="mw-redirect">Ernest O. Lawrence</a>,
+    physicist
+  </td>
+  <td>3</td>
+  <td>7</td>
+  <td><span class="sorttext">[262]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>1900</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>1.3</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>104</td>
+  <td style="background-color:#ffc0c0">Rf</td>
+  <td><a href="/wiki/Rutherfordium" title="Rutherfordium">Rutherfordium</a></td>
+  <td><a href="/wiki/Ernest_Rutherford" title="Ernest Rutherford">Ernest Rutherford</a>, chemist and physicist</td>
+  <td>4</td>
+  <td>7</td>
+  <td><span class="sorttext">[267]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>105</td>
+  <td style="background-color:#ffc0c0">Db</td>
+  <td><a href="/wiki/Dubnium" title="Dubnium">Dubnium</a></td>
+  <td><a href="/wiki/Dubna" title="Dubna">Dubna</a>, Russia</td>
+  <td>5</td>
+  <td>7</td>
+  <td><span class="sorttext">[268]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>106</td>
+  <td style="background-color:#ffc0c0">Sg</td>
+  <td><a href="/wiki/Seaborgium" title="Seaborgium">Seaborgium</a></td>
+  <td><a href="/wiki/Glenn_T._Seaborg" title="Glenn T. Seaborg">Glenn T. Seaborg</a>, scientist</td>
+  <td>6</td>
+  <td>7</td>
+  <td><span class="sorttext">[269]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>107</td>
+  <td style="background-color:#ffc0c0">Bh</td>
+  <td><a href="/wiki/Bohrium" title="Bohrium">Bohrium</a></td>
+  <td><a href="/wiki/Niels_Bohr" title="Niels Bohr">Niels Bohr</a>, physicist</td>
+  <td>7</td>
+  <td>7</td>
+  <td><span class="sorttext">[270]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>108</td>
+  <td style="background-color:#ffc0c0">Hs</td>
+  <td><a href="/wiki/Hassium" title="Hassium">Hassium</a></td>
+  <td><a href="/wiki/Hesse" title="Hesse">Hesse</a>, Germany, where the element was first synthesized</td>
+  <td>8</td>
+  <td>7</td>
+  <td><span class="sorttext">[269]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>109</td>
+  <td style="background-color:#e8e8e8">Mt</td>
+  <td><a href="/wiki/Meitnerium" title="Meitnerium">Meitnerium</a></td>
+  <td><a href="/wiki/Lise_Meitner" title="Lise Meitner">Lise Meitner</a>, physicist</td>
+  <td>9</td>
+  <td>7</td>
+  <td><span class="sorttext">[278]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>110</td>
+  <td style="background-color:#e8e8e8">Ds</td>
+  <td><a href="/wiki/Darmstadtium" title="Darmstadtium">Darmstadtium</a></td>
+  <td><a href="/wiki/Darmstadt" title="Darmstadt">Darmstadt</a>, Germany, where the element was first synthesized</td>
+  <td>10</td>
+  <td>7</td>
+  <td><span class="sorttext">[281]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>111</td>
+  <td style="background-color:#e8e8e8">Rg</td>
+  <td><a href="/wiki/Roentgenium" title="Roentgenium">Roentgenium</a></td>
+  <td><a href="/wiki/Wilhelm_Conrad_R%C3%B6ntgen" title="Wilhelm Conrad Röntgen" class="mw-redirect">Wilhelm Conrad
+    Röntgen</a>, physicist
+  </td>
+  <td>11</td>
+  <td>7</td>
+  <td><span class="sorttext">[281]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>112</td>
+  <td style="background-color:#ffc0c0">Cn</td>
+  <td><a href="/wiki/Copernicium" title="Copernicium">Copernicium</a></td>
+  <td><a href="/wiki/Nicolaus_Copernicus" title="Nicolaus Copernicus">Nicolaus Copernicus</a>, astronomer</td>
+  <td>12</td>
+  <td>7</td>
+  <td><span class="sorttext">[285]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>113</td>
+  <td style="background-color:#e8e8e8">Uut</td>
+  <td><a href="/wiki/Ununtrium" title="Ununtrium">Ununtrium</a></td>
+  <td><a href="/wiki/IUPAC" title="IUPAC" class="mw-redirect">IUPAC</a> <a href="/wiki/Systematic_element_name"
+                                                                           title="Systematic element name">systematic
+    element name</a></td>
+  <td>13</td>
+  <td>7</td>
+  <td><span class="sorttext">[286]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>114</td>
+  <td style="background-color:#e8e8e8">Fl</td>
+  <td><a href="/wiki/Flerovium" title="Flerovium">Flerovium</a></td>
+  <td><a href="/wiki/Georgy_Flyorov" title="Georgy Flyorov">Georgy Flyorov</a>, physicist</td>
+  <td>14</td>
+  <td>7</td>
+  <td><span class="sorttext">[289]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>115</td>
+  <td style="background-color:#e8e8e8">Uup</td>
+  <td><a href="/wiki/Ununpentium" title="Ununpentium">Ununpentium</a></td>
+  <td><a href="/wiki/IUPAC" title="IUPAC" class="mw-redirect">IUPAC</a> <a href="/wiki/Systematic_element_name"
+                                                                           title="Systematic element name">systematic
+    element name</a></td>
+  <td>15</td>
+  <td>7</td>
+  <td><span class="sorttext">[288]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>116</td>
+  <td style="background-color:#e8e8e8">Lv</td>
+  <td><a href="/wiki/Livermorium" title="Livermorium">Livermorium</a></td>
+  <td><a href="/wiki/Lawrence_Livermore_National_Laboratory" title="Lawrence Livermore National Laboratory">Lawrence
+    Livermore National Laboratory</a>, within the city of <a href="/wiki/Livermore,_California"
+                                                             title="Livermore, California">Livermore, California</a>,
+    USA, which collaborated with JINR on the discovery of the element
+  </td>
+  <td>16</td>
+  <td>7</td>
+  <td><span class="sorttext">[293]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>117</td>
+  <td style="background-color:#e8e8e8">Uus</td>
+  <td><a href="/wiki/Ununseptium" title="Ununseptium">Ununseptium</a></td>
+  <td><a href="/wiki/IUPAC" title="IUPAC" class="mw-redirect">IUPAC</a> <a href="/wiki/Systematic_element_name"
+                                                                           title="Systematic element name">systematic
+    element name</a></td>
+  <td>17</td>
+  <td>7</td>
+  <td><span class="sorttext">[294]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr>
+  <td>118</td>
+  <td style="background-color:#e8e8e8">Uuo</td>
+  <td><a href="/wiki/Ununoctium" title="Ununoctium">Ununoctium</a></td>
+  <td><a href="/wiki/IUPAC" title="IUPAC" class="mw-redirect">IUPAC</a> <a href="/wiki/Systematic_element_name"
+                                                                           title="Systematic element name">systematic
+    element name</a></td>
+  <td>18</td>
+  <td>7</td>
+  <td><span class="sorttext">[294]</span><sup
+          class="reference plainlinks nourlexpansion" id="ref_1"><a href="#endnote_1">1</a></sup></td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td>&ndash;</td>
+  <td><span class="sorttext">0</span> <sup
+          class="reference plainlinks nourlexpansion" id="ref_8"><a href="#endnote_8">8</a></sup></td>
+</tr>
+<tr style="display:none;">
+  <td>9e99</td>
+  <td>~z</td>
+  <td>~z</td>
+  <td>9e99</td>
+  <td>9e99</td>
+  <td>9e99</td>
+  <td>9e99</td>
+  <td>9e99</td>
+  <td>9e99</td>
+  <td>9e99</td>
+  <td>9e99</td>
+  <td>9e99</td>
+</tr>
+</tbody>
+<tfoot></tfoot>
+</table>
+
+</body>
+</html>
