@@ -1,7 +1,11 @@
 align-column
 ============
 
-jQuery table formatting plugin for decimal alignment and other prettifying of table columns
+jQuery table formatting plugin for decimal alignment and other prettifying of table columns.
+
+Scientific tables:
+
+<img src="https://raw.github.com/ndp/align-column/master/examples/chemicals.png">
 
 ### Usage
 
