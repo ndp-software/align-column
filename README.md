@@ -7,20 +7,16 @@ jQuery table formatting plugin for decimal alignment and other prettifying of ta
 
 Change sloppily right aligned numeric tables from:
 
-<img src="https://raw.github.com/ndp/align-column/master/examples/decimals-right.png">
-
-to:
-
-<img src="https://raw.github.com/ndp/align-column/master/examples/decimals-after-bordered.png">
+<img src="https://raw.github.com/ndp/align-column/master/examples/decimals-right.png"> ==> <img src="https://raw.github.com/ndp/align-column/master/examples/decimals-after-bordered.png">
 
 
 Center based on characters besides a decimal separator:
 
-<img src="https://raw.github.com/ndp/align-column/master/examples/other-characters-before.png">
-
-into:
-
 <img src="https://raw.github.com/ndp/align-column/master/examples/other-characters-after-bordered.png">
+
+instead of the usual HTML mess:
+
+<img src="https://raw.github.com/ndp/align-column/master/examples/other-characters-before.png">
 
 
 Scientific tables:
