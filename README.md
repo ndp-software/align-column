@@ -3,7 +3,7 @@ align-column
 
 jQuery table formatting plugin for decimal alignment and other prettifying of table columns.
 
-### Features
+## Features
 
 Transform sloppily right-aligned numeric tables:
 
@@ -20,11 +20,11 @@ instead of the usual HTML mess:
 <img src="https://raw.github.com/ndp/align-column/master/examples/other-characters-before.png">
 
 
-Scientific tables:
+Scientific tables can be much improved:
 
 <img src="https://raw.github.com/ndp/align-column/master/examples/chemicals.png">
 
-### Usage
+## Usage
 
 To align numeric columns of an HTML table, use:
 ```
@@ -44,7 +44,7 @@ center by some other character or characters:
 
 
 
-### Related Projects
+## Related Projects
 
 * TextAlign: http://www.bramstein.com/projects/text-align/  This project has very much
 the same goal, and looks like an excellent choice. The main difference is the technique--
