@@ -15,7 +15,7 @@ to easier to read:
 
 Center based on characters besides a decimal separator:
 
-<img src="https://raw.github.com/ndp/align-column/master/examples/other-characters-after.png">
+<img src="https://raw.github.com/ndp/align-column/master/examples/other-characters-after-bordered.png">
 <!--img src="https://raw.github.com/ndp/align-column/master/examples/other-characters-before.png"-->
 
 <a href="http://ndpsoftware.com/align-column/examples/chemical_elements.html">Scientific tables</a> can be much improved:
