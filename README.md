@@ -43,9 +43,7 @@ center by some other character or characters:
 ## Examples
 
 * <a href="http://ndpsoftware.com/align-column/examples/chemical_elements.html">Wikipedia table of chemical elements</a>
-* <a href="http://ndpsoftware.com/align-column/examples/typographic_style.html">Table 4.4.4, p. 72</a> from
-  <iframe src="http://rcm.amazon.com/e/cm?lt1=_blank&bc1=FFFFFF&IS2=1&npa=1&bg1=FFFFFF&fc1=000000&lc1=BB2401&t=ndso-20&o=1&p=8&l=as1&m=amazon&f=ifr&ref=qf_sp_asin_til&asins=0881792063" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-
+* <a href="http://ndpsoftware.com/align-column/examples/typographic_style.html">Table 4.4.4, p. 72</a> from <a href="http://www.amazon.com/gp/product/0881792063/ref=as_li_qf_sp_asin_tl?p ie=UTF8&camp=1789&creative=9325&creativeASIN=0881792063&linkCode=as2&tag=ndso-20">The Elements of Typographic Style</a><img src="http://www.assoc-amazon.com/e/ir?t=ndso-20&l=as2&o=1&a=0881792063" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> 
 
 ## Related Projects
 
