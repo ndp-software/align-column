@@ -24,6 +24,11 @@ Center based on characters besides a decimal separator:
 
 ## Usage
 
+```
+  <script type="text/javascript" src=".../jquery...min.js"></script>
+  <script type="text/javascript" src=".../jquery.align-column.js"></script>
+```
+
 To align numeric columns of an HTML table, use:
 ```
   $('table').alignColumn(3); // column index
