@@ -50,8 +50,10 @@ center by some other character or characters:
 * <a href="http://ndpsoftware.com/align-column/examples/chemical_elements.html">Wikipedia table of chemical elements</a>
 * <a href="http://ndpsoftware.com/align-column/examples/typographic_style.html">Table 4.4.4, p. 72</a> from <a href="http://www.amazon.com/gp/product/0881792063/ref=as_li_qf_sp_asin_tl?p ie=UTF8&camp=1789&creative=9325&creativeASIN=0881792063&linkCode=as2&tag=ndso-20">The Elements of Typographic Style</a><img src="http://www.assoc-amazon.com/e/ir?t=ndso-20&l=as2&o=1&a=0881792063" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> 
 
-## Related Projects
+## References and Related Projects
 
+* <a href="http://blog.ndpsoftware.com/2013/04/align-column-jquery-plugin.html">Blog Post with the Story Behind the Plugin</a>
 * TextAlign: http://www.bramstein.com/projects/text-align/  This project has very much
 the same goal, and looks like an excellent choice. The main difference is the technique--
 it uses spans to align the text, whereas `alignColumn` uses the table cells themselves.
+* An older post takes a different approach to support CSS properties: http://krijnhoetmer.nl/stuff/javascript/table-align-char/
