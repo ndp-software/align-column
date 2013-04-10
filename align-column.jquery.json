@@ -1,0 +1,41 @@
+{
+    "name": "align-column",
+    "title": "jQuery AlignColumn",
+    "description": "jQuery plugin for aligning columns of a table on decimal or other character.",
+    "keywords": [
+        "alignment",
+        "decimal",
+        "decimal-point",
+        "table",
+        "scientific",
+        "numbers",
+        "formatting",
+        "CSS",
+        "text-align",
+        "animation"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Andrew J. Peterson",
+        "url": "http://ndpsoftware.com"
+    },
+    "maintainers": [
+        {
+            "name": "Andrew Peterson",
+            "email": "andy@ndpsoftware.com",
+            "url": "http://ndpsoftware.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/align-column/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/ndp/align-column/issues",
+    "homepage": "https://github.com/ndp/align-column",
+    "docs": "https://github.com/ndp/align-column",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
