@@ -56,7 +56,8 @@ $.fn.alignColumn = function (columns, options) {
         var colIndex = columns[index],
             $cell = $(cells[colIndex]),
             text = $cell.html(),
-            pieces = splitter(text);
+            pieces = splitter(text),
+            existingClasses = $cell.attr('class');
 
         if (config.debug) {
           console.log("Split '" + text + "' into " + pieces.length + " pieces: ", "" + pieces[0], "" + pieces[1]);
@@ -74,6 +75,7 @@ $.fn.alignColumn = function (columns, options) {
               html(pieces[1]).
               css({textAlign: 'left', paddingLeft: 0, borderLeft: 'none'}).
               addClass(config.addedCellClass).
+              addClass(existingClasses).
               insertAfter($cell);
         } else {
           $cell.attr('colspan', 2);
