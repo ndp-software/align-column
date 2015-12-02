@@ -22,6 +22,7 @@ $.fn.alignColumn = function (columns, options) {
       console.log('Splitting by ', config.center);
     }
     splitter = function (text) {
+      if(text === undefined) return '';
       var s = text.split(config.center);
       return (s.length == 2) ? [s[0], config.center + s[1]] : [text];
     }
