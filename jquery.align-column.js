@@ -1,4 +1,4 @@
-/* Copyright (c) 2013 NDP Software, Andrew J. Peterson
+/* Copyright (c) 2013-2020 NDP Software, Andrew J. Peterson
  * https://github.com/ndp/align-column
  */
 $.fn.alignColumn = function (columns, options) {
