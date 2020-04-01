@@ -1,11 +1,16 @@
 <html>
 <head>
-  <title></title>
+  <title>Examples: Align Column jQuery Plugin</title>
   <style>
+    h1, h2 {
+      margin-top: 20px;
+      font-family: helvetica, sans-serif;
+      color: #666;
+    }
     table {
-      margin: 100px 20px;
+      margin: 0 20px 20px 0;
       font-size: large;
-      font-family: times new roman;
+      font-family: sans-serif;
       background-color: #eee;
       color: #555;
     }
@@ -23,38 +28,30 @@
     table.bordered td, table.bordered th {
       border: 1px solid #bbb;
     }
+    caption {
+      margin: 0 0 10px;
+      font-variant: small-caps;
+    }
   </style>
   <script type="text/javascript" src="../lib/jquery-1.8.1.min.js"></script>
   <script type="text/javascript" src="../jquery.align-column.js"></script>
   <script type="text/javascript">
     $(function () {
-      $('input:button').click(function () {
-        $('table.decimal-aligned').alignColumn([0, 1, 2, 3]);
+      $('table.decimal-aligned').alignColumn([0, 1, 2, 3])
 
-        $('table.lots').alignColumn(1, { center: ':', debug: true});
-        $('table.lots').alignColumn(2, { center: 'x', debug: true});
-        $('table.lots').alignColumn(3, { center: '.', debug: true});
-        $('table.lots').alignColumn(4, { center: '=', debug: true});
-      });
-
-      $(':checkbox[value="show-borders"]').change(function () {
-        var show = $(this).is(':checked');
-        console.log('show', show);
-        $('table').toggleClass('bordered', show);
-
-      });
-    });
+      $('table.lots').alignColumn(1, { center: ':', debug: true})
+      $('table.lots').alignColumn(2, { center: 'x', debug: true})
+      $('table.lots').alignColumn(3, { center: '.', debug: true})
+      $('table.lots').alignColumn(4, { center: '=', debug: true})
+    })
   </script>
 </head>
 <body>
+<h1>Align Column jQuery Plugin</h1>
 <p>Build using the <a href="https://github.com/ndp/align-column">Align Column jQuery Plugin</a></p>
-
-<p><input type="checkbox" value="show-borders">Show Borders</input>
-</p>
-
-<p><input type="button" value="Align Now">
-</p>
-<table class="decimal-aligned">
+<h2>Numbers with Decimal Marks</h2>
+<table class="">
+  <caption>Plain HTML</caption>
   <tbody>
   <tr>
     <td>8</td>
@@ -82,7 +79,38 @@
   </tr>
   </tbody>
 </table>
-<table class="lots">
+<table class="decimal-aligned">
+  <caption>Aligned HTML</caption>
+  <tbody>
+  <tr>
+    <td>8</td>
+    <td>98</td>
+    <td>998</td>
+    <td>9.75</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>-99</td>
+    <td>999*</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>100</td>
+    <td>1000</td>
+    <td>10.25</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>101</td>
+    <td>1001</td>
+    <td>10.5</td>
+  </tr>
+  </tbody>
+</table>
+<h2>Table 4.4.4, p. 72, <i>The Elements of Typographic Style</i></h2>
+<table>
+  <caption>Plain HTML</caption>
   <tbody>
   <tr>
     <th>Aster</th>
@@ -100,7 +128,46 @@
   </tr>
   </tbody>
 </table>
-<caption>Table 4.4.4, p. 72, <i>The Elements of Typographic Style</i></caption>
+
+<table class="lots">
+  <caption>With plugin</caption>
+  <tbody>
+  <tr>
+    <th>Aster</th>
+    <td>2:3</td>
+    <td>24 x 36</td>
+    <td>0.6667</td>
+    <td>a = 2b</td>
+  </tr>
+  <tr>
+    <th>Valerian</th>
+    <td>271:20</td>
+    <td>813 x 604</td>
+    <td>13.550</td>
+    <td>6a = c</td>
+  </tr>
+  </tbody>
+</table>
+
+<table class="lots bordered">
+  <caption>With plugin & borders</caption>
+  <tbody>
+  <tr>
+    <th>Aster</th>
+    <td>2:3</td>
+    <td>24 x 36</td>
+    <td>0.6667</td>
+    <td>a = 2b</td>
+  </tr>
+  <tr>
+    <th>Valerian</th>
+    <td>271:20</td>
+    <td>813 x 604</td>
+    <td>13.550</td>
+    <td>6a = c</td>
+  </tr>
+  </tbody>
+</table>
 
 </body>
 </html>
